@@ -1,0 +1,8 @@
+go 1.21.0
+
+use (
+	./downloaders
+	./ops
+)
+
+replace gitee.com/mmosir/ops v0.0.0 => ./ops
